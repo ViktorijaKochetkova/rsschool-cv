@@ -1,2 +1,3 @@
 # rsschool-cv
-Projects for Rolling Scopes School
+Projects for Rolling Scopes School!
+https://ViktorijaKochetkova.github.io/rsschool-cv/
