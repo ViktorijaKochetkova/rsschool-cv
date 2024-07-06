@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "Libre_Baskerville";
+    font-family: "Libre Baskerville Bold";
      src: url("assets/fonts/Libre_Baskerville-Bold");
      font-weight: bold;
 }
 @font-face {
-    font-family: "Libre_Baskerville";
+    font-family: "Libre_Baskerville Regular";
     src: url("assets/fonts/Libre_Baskerville-Regular");
     font-weight: normal;
 }
@@ -23,4 +23,63 @@ border: 1px solid red;
 
 footer {
 border: 1px solid red;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Libre Baskerville Regular";
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.section-item a {
+    color: #823385;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.section-item a:hoover {
+    color: #4d2323
+}
+
+.name {
+    font-family: "Libre Baskerville Bold";
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.position {
+    font-family: "Libre Baskerville Regular";
+    font-size: 18px;
+    margin-top: 8px;
 }
