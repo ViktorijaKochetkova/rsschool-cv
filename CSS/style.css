@@ -17,16 +17,16 @@
 
 header {
     background-color: black;
-    border: 1px solid red;
+    border: 1px solid #ffd700;
     padding: 20px;
 }
 
 main {
-    border: 1px solid red;
+    border: 1px solid #ffd700;
 }
 
 footer {
-    border: 1px solid red;
+    border: 1px solid #ffd700;
 }
 
 body {
@@ -39,8 +39,8 @@ body {
     font-family: "Libre Baskerville Regular", sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    color: rgb(245, 178, 8);
-    background-color: rgb(14, 16, 22);
+    color: #ffd700;
+    background-color: black;
 }
 
 .container {
@@ -91,7 +91,7 @@ html {
 }
 
 .name {
-    font-family: "Libre Baskerville Bold";
+    font-family: "Libre Baskerville Bold", sans-serif;
     font-size: 24px;
     text-transform: uppercase;
 }
@@ -99,6 +99,7 @@ html {
 .position {
     font-family: "Libre Baskerville Regular";
     font-size: 18px;
+    text-transform: uppercase;
     margin-top: 8px;
 }
 
@@ -148,12 +149,55 @@ html {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    background-color: rgb(160, 116, 7);
+    background-color:#ffd700;
 }
 
 .photo {
-    width: auto;
-    height: 250px;
-    border-radius: 60%;
-    margin-bottom: 10px;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8 px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffd700;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: 2px solid #ffd700;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.profile-info {
+   flex: 1;
+   text-align: left;
+   color: black;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
 }
