@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about_me" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code_example" class="nav-link">Code Example</a></li>
+                    <li class="nav-item"><a href="#internship" class="nav-link">Internship</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="section" id="profile">
+                <img src="assets/img/photo.jpg" alt="Profile Photo" class="photo">
+                <h1 class="section-name">Viktorija Kočetkova</h1>
+                <p class="position">Junior Developer</p>
+            </section>
+
+
+            <section class="seciton" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li><img src="assets/img/phone.png" alt="Phone icon">+37126053607</li>
+                    <li><img src="assets/img/mail.png" alt="E-mail icon">kochetit@gmail.com</li>
+                    <li><img src="assets/img/map.png" alt="Map">Latvia, Riga</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">About Me</h2>
+                <p>As a commied developer, my
+                    passion for problem-solving and
+                    collaboraon emanates from
+                    experiences I've gained from 'She
+                    Goes Tech' and 'Accenture Balcs'
+                    bootcamps. I am eager to contribute
+                    towards meaningful projects,
+                    bridging my skills with yours to
+                    achieve common goals. I am
+                    parcularly enthusiasc about the
+                    opportunity of being part of your
+                    dynamic team.</p>
+                <p>As a budding developer, my journey
+                    has been a quest for purpose and
+                    fulfillment, and I've finally
+                    discovered my passion. I aspire to
+                    become an exceponal Java
+                    developer because, to me, it
+                    represents more than just a job—it's
+                    an opportunity to collaborate with
+                    the best minds, contribute to
+                    meaningful projects that benefit
+                    people, and make the world a beer
+                    and more enjoyable place. Eager to
+                    be a part of this dynamic
+                    community, I embarked on my path
+                    with the:</p>
+                    <ul>
+                        <li>"She Goes Tech" Java Soware
+                            Engineering Bootcamp - 3
+                            months.</li>
+                        <li>"Accenture Balcs" Java Soware
+                            Engineering Bootcamp - 4
+                            months. These experiences have
+                            equipped me with the skills and
+                            knowledge needed to thrive in
+                            the world of Java development.
+                            I'm excited about contribung my
+                            abilies and being a valuable
+                            asset to your team. Let's join
+                            forces and create something
+                            amazing together!</li>
+                        <li>"Deep Dive into DevOps and
+                            Cloud Technologies" course - 2
+                            weeks. Obtained comprehensive
+                            understanding of DevOps
+                            methodologies and praccal skills
+                            in cloud soluons.Explored
+                            Docker, Kubernetes, Terraform,
+                            Jenkins, and Ansible. These skills
+                            enable successful work in the
+                            field of DevOps and cloud
+                            compung.</li>
+                    </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>Salesforce Object Search</li>
+                    <li>Language (SOSL) Cascading Style Sheets (CSS)</li>
+                    <li>Version Control Linux</li>
+                    <li>Hibernate (Java) Java (Programming Language)</li>
+                    <li>HyperText Markup Language</li>
+                    <li>(HTML) Python (Programming Language)</li>
+                    <li>SQL (Programming Language) Salesforce.Com</li>
+                    <li>Quality Control Gradle</li>
+                    <li>Manual Testing</li>
+                    <li>Apex Code</li>
+                    <li>Junit</li>
+                    <li>Ansible</li>
+                    <li>Terraform</li>
+                    <li>Docker</li>
+                    <li>Shell Script</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code Example</h2>
+                <pre><code>
+                    public int checkDlid(String dlid) {
+                        try (Connection conn = DriverManager.getConnection(dbURL, username, password)) {
+                            String sqlUser = "SELECT * FROM drivers WHERE dlid ='" + dlid + "'";
+                            Statement statement = conn.createStatement();
+                            ResultSet resultSet = statement.executeQuery(sqlUser);
+                            if (resultSet.next()) {
+                                //returns Users ID Nr.
+                                return resultSet.getInt(1);
+                            } else {
+                                return 0;
+                            }
+                        } catch (SQLException e) {
+                            e.printStackTrace();
+                        }
+                        return 0;
+                    }
+                </code></pre>
+            </section>
+            <section class="section" id="internship">
+                <h2 class="section-title">Internship</h2>
+                <p><strong>SALESFORCE</strong><br>
+                    ACCENTURE BALTICS | RIGA<br>
+                    APR 2023 - O CT 2023<br>
+                    <ul>
+                        <li>Studying Slesforce developing</li>
+                    </ul>
+                </p>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+
+                <article>
+                    <h3>Cooker</h3>
+                    <p>FELIKSS ID | RIGA<br>
+                    SEP 2016 - APR 2023</p>
+                    <ul>
+                        <li>I learned the culinary profession from scratch, developed stress tolerance, hard
+                            work ethics, and efecve communicaon skills</li>
+                        <li>Managed a team of kitchen staf and ensured quality control of dishes served.</li>
+                        <li>Learn fast and efecvely solve problems.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>MATERNITY LEAVE AND SPECIAL CARE</h3>
+                    <p>RIGA<br>
+                    MAR 2011 -  SEP 2016</p>
+                </article>
+
+                <article>
+                    <h3>PROJECTS MANAGER</h3>
+                    <p>OPTUMRIGA | RIGA<br>
+                    MAR 2010 - MAR 2011</p>
+                    <ul>
+                        <li>Conducted market research and collected customer feedback to develop the first
+                            analog to Uber and Bolt in the
+                            local market.</li>
+                        <li>Wrote technical specificaons for soware engineers and communicated
+                            changes to customers.</li>
+                        <li>Trained customers and their employees in how to use the soware.</li>
+                        <li>Developed strong communicaon, stress tolerance, and teamwork skills.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>SECRETARY</h3>
+                    <p>KOLENZO I | RIGA<br>
+                    JUN 2006 - JUN 2009</p>
+                    <ul>
+                        <li>Managed ofice administrave tasks, including scheduling appointments,
+                            answering phone calls, and organizing paperwork.</li>
+                    </ul>
+                </article>
+                
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li>Bachelor of Management<br>
+                    Communication Institute<br>
+                    Riga 2006</li>
+                    <li>Devops Deep Dive and Cloud<br>
+                    Accenture Baltics Bootcamp<br> 
+                    Riga 2024</li>
+                    <li>Java / Software Engineering<br>
+                    Accenture Baltics Bootcamp<br>
+                    Riga 2023</li>
+                    <li>Java / Software Engineering<br>
+                    She Goes Tech<br>
+                    Riga 2022</li>
+                    <li>QA Manual Testing<br>
+                    JavaGuru<br>
+                    Riga 2021</li>  
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>Latvian - B2</li>
+                    <li>Italian - A1</li>
+                    <li>English - B2</li>
+                    <li>Russian - native</li>
+                </ul>                
+            </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="https://github.com/ViktorijaKochetkova"><img class="footer-img" src= "assets/img/BigGithub.png" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/viktorija-kocetkova-122a87224"><img class="footer-img" src="assets/img/Big linkedIn.png" alt="LinkedIn"></a>
+            <a href="https://rs.school/courses/javascript-ru"><img class="footer-img rsschool-img" src="assets/img/rs-school-logo.svg" alt="RSSchool"></a>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
