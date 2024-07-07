@@ -6,7 +6,10 @@
 
 + +37126053607
 + kochet@gmail.com
++ https://github.com/ViktorijaKochetkova
++ https://www.linkedin.com/in/viktorija-kocetkova-122a87224
 + Riga, Latvia
+
 
 ### **About me**
 
