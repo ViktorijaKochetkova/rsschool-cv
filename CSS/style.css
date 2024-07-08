@@ -152,6 +152,12 @@ html {
     background-color:#ffd700;
 }
 
+.footer-text {
+    margin-top: 15 px;
+    font-size: 14px;
+    color:black;
+}
+
 .photo {
     width: 200px;
     height: auto;
