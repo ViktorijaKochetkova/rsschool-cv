@@ -19,10 +19,16 @@ header {
     background-color: black;
     border: 1px solid #ffd700;
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 main {
     border: 1px solid #ffd700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 footer {
@@ -103,11 +109,6 @@ html {
     margin-top: 8px;
 }
 
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .section {
     width: 50%;
 }
@@ -170,7 +171,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#ffd700;
+    background-color:#e3c517;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -206,4 +207,20 @@ h2 {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 10px;
+}
+
+#projects a {
+    color: #ffd700;
+    font-size: 18px;
+}
+
+#projects a:hover {
+    color: #4d2323;
+}
+
+article {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 10px;   
 }
